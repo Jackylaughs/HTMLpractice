@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+body{
+    background-image: url("./backgroundyou.jpg");
+    background-size: cover;
+}
+
+p{
+    color: #3c3c3c;
+}
+/*pのタグがついたものを全部変える*/
+
+p.sankou{
+    color: #cdceff;
+    font-size: 50px;
+    font-weight: 800;
+}
+/*pのうちsankouのclassだけ見た目を変える*/
+
+a.sankou{
+    color: #e77f42;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+a:hover{
+    color: rgb(69, 212, 212);
+}
+/*これはカーソルを乗せた時だけ色を変えるってこと！*/
