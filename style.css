@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-body{
+body.home{
     background-image: url("./backgroundyou.jpg");
     background-size: cover;
 }
@@ -27,3 +27,13 @@ a:hover{
     color: rgb(69, 212, 212);
 }
 /*これはカーソルを乗せた時だけ色を変えるってこと！*/
+
+body.favoritemusic{
+    background-color: rgb(255, 207, 215);
+}
+
+p.favoritemusic{
+    color: #ffa0d7;
+    font-size: 200%;
+    font-weight: 400;
+}
