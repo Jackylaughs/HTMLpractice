@@ -83,7 +83,7 @@ fruits[3] = "メロン"; // 配列の3の位置にメロンを追加する
 console.log("くだものリスト", fruits);
 
 fruits.push("いちじく"); // pushを使うと配列の最後に要素を追加できる
-console.log("リスト更新後：", fruits);
+console.log("リスト更新1回目：", fruits);
 
 fruits.unshift("スイカ"); // unshiftで配列の最初に要素を追加できる
 console.log("リスト更新2回目：", fruits);
