@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ページのタイトルだよ</title>
     <meta name="description" content="ページの説明文だよ">
     <link rel="stylesheet" href="./sanitize.css">
+    <!-- これはブラウザによって見た目のデフォルトが違うから統一するためのcssだよ
+     土台となるから上書きされる前提で本命のcssより先に置くよ -->
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body class="home">
     <h1>見出しのタグだよ</h1>
     <h2>見出しのタグ2？</h2>
     <h3>見出しのタグ3？</h3>
     <h6>h6まであるらしい　ちっちゃ</h6>
     <p>これはパラグラフらしい</p>
-    <a href="https://monster-siren.hypergryph.com/music/880309">これはリンクだよ</a>
+    <a href="https://ja.wikipedia.org/wiki/%E3%83%8F%E3%82%A4%E3%83%91%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF">これはリンクだよ</a>
     <p>これは<a href="https://monster-siren.hypergryph.com/music/880309">アークナイツで2番目に好きな曲</a>だよ！</p>
     <section>
         <h1>ネスト</h1>
@@ -37,9 +39,11 @@
     <p>ここからはCSSの話？</p>
     <p style="color: brown; font-weight: bold;">pにstyle=""ってやつを入れると色とか見た目が変えられる あんま使われないらしい</p>
     <p>headタグの中にlinkタグを入れてstylesheetって書いてあげるといいらしい　css用のファイルを作ってここに割り当てるらしい</p>
+    <p class="favoritemusic">好きな曲を<a href="favoritemusic.html">こちらのページで</a>紹介したよ　よかったら見てね</p>
     <p class="sankou">このページを作った時の参考動画は<a class="sankou" target="_blank" href="https://youtu.be/IR_srJ2zL3o?si=DSpao6dyeLhtsVHH">これ</a>！</p>
     <p class="sankou">このページのJavaScriptを作った時に参考にしたサイトは<a class="sankou" target="_blank" href="https://learning-tech.jp/">これ</a>！</p>
     <script src="./app.js"></script>
+    <!-- 最後にJavaScriptを指定すると読み込みが後回しにされるから、通信環境が悪くてもとりあえず先にHTMLとCSSを機能させることができる -->
 </body>
 </html>
 
