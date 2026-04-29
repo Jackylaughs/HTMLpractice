@@ -5,6 +5,14 @@ body.home{
     background-size: cover;
 }
 
+h2#clockP{
+    color: #b9b9b9;
+}
+
+span#clock{
+    color: #ff3b3b;
+}
+
 p{
     color: #3c3c3c;
 }
