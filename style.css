@@ -47,9 +47,10 @@ p.favoritemusic{
 }
 
 section.ranking{
-    max-width: 600px;
+    color: rgb(53, 25, 30);
+    max-width: 800px;
     width: 95%;
-    border: 2px solid #3c3c3c;
+    border: 2px solid rgb(116, 61, 69);
     padding: 10px 30px 10px 30px;
     border-radius: 10px;
     background-color: rgb(244, 216, 220);
@@ -60,17 +61,37 @@ h2#favoritemusic_title{
     color: #982222;
     font-size: 40px;
     text-align: center;
-    /* max-width: 600px;
-    margin: 10px auto; */
+    max-width: 800px;
+    margin: 20px auto 0px auto;
 }
 
 p.favoritemusic_description{
     text-align: center;
-    /* max-width: 600px;
-    margin: 10px auto; */
+    max-width: 800px;
+    margin: 0px auto 20px auto;
 }
 
 #link_top{
-    max-width: 600px;
+    color: #982222;
+    max-width: 800px;
     margin: 10px auto 50px auto;
 }
+
+#link_top:hover{
+    color: #3b9ad5;
+}
+
+#favoritemusic_kansou{
+    max-width: 800px;
+    margin: 20px auto 0px auto;
+}
+
+.favoritemusic section.ranking a{
+    color: #982222;
+}
+
+.favoritemusic section.ranking a:hover{
+    color: #3b9ad5;
+}
+
+/* 追加、変更したい時に気分でIDやらクラスをつけるせいで、たったこの量でもスパゲッティコードを回避するのがいかに難しいことかを理解した */
