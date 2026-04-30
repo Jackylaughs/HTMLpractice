@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+.zen-maru-gothic-regular {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body.home{
     background-image: url("./backgroundyou.jpg");
     background-size: cover;
@@ -37,6 +43,7 @@ a:hover{
 /*これはカーソルを乗せた時だけ色を変えるってこと！*/
 
 body.favoritemusic{
+    font-family: "Zen Maru Gothic";
     background-color: rgb(232, 173, 183);
 }
 
@@ -57,7 +64,7 @@ section.ranking{
     margin: 10px auto;
 }
 
-h2#favoritemusic_title{
+h1#favoritemusic_title{
     color: #982222;
     font-size: 40px;
     text-align: center;
@@ -83,10 +90,12 @@ p.favoritemusic_description{
 
 #favoritemusic_kansou{
     max-width: 800px;
-    margin: 20px auto 0px auto;
+    margin: 0px auto 0px auto;
 }
 
 .favoritemusic section.ranking a{
+    text-decoration: none;
+    font-weight: 600;
     color: #982222;
 }
 
