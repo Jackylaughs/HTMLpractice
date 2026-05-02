@@ -1,4 +1,4 @@
-alert("Hello World!");
+// alert("Hello World!");
 
 console.log("logに文字を送信したよ");
 console.log(1 + 2);
@@ -99,7 +99,7 @@ console.log("変更後：", fruits);
 
 
 if (fruits.includes("アボカド")){ // includesで要素が含まれているか調べる
-    // alert("アボカドが見つかりました！");
+    alert("アボカドが見つかりました！");
 }else{
     // alert("アボカドがありません！");
 }
