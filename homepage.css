@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+.noto-sans-jp {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body#homepage{
+    background-color: #d2d2d2;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+body h2{
+    color: #343434;
+    margin: 20px auto 10px 12px;
+    max-width: 1000px;
+    width: 95%;
+}
+
+div#allcard{
+    margin: 10px;
+}
+
+.pagecard{
+    display: block;
+    background-color: #e0e0e0;
+    border: 2px solid #343434;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin: 10px 0 10px 0;
+    max-width: 900px;
+}
+
+.pagecard:hover{
+    background-color: #d2d2d2;
+}
+
+.pagecard h3{
+    color: #343434;
+}
+
+.pagecard p{
+    color: #343434;
+}

@@ -6,7 +6,7 @@
   font-style: normal;
 }
 
-body.home{
+body.firsttime{
     background-image: url("./backgroundyou.jpg");
     background-size: cover;
 }
