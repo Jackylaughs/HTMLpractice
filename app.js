@@ -1,4 +1,4 @@
-// alert("Hello World!");
+alert("Hello World!");
 
 console.log("logに文字を送信したよ");
 console.log(1 + 2);

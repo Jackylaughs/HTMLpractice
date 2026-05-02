@@ -8,40 +8,71 @@
 }
 
 body#homepage{
-    background-color: #d2d2d2;
+    background-color: #f5f5f5;
     font-family: "Noto Sans JP", sans-serif;
 }
 
-body h2{
+div.header{
+    background-color: #972c2c;
+    width: 100%;
+    padding: 0px 20px 8px 20px;
+    margin: auto;
+    position: fixed;
+    top: 0
+}
+
+h1{
+    color: #fff1f1;
+    margin: 0;
+}
+
+h2.section_title{
     color: #343434;
-    margin: 20px auto 10px 12px;
-    max-width: 1000px;
-    width: 95%;
+    margin: 0px auto 0px 4px;
+    max-width: 600px;
 }
 
 div#allcard{
-    margin: 10px;
+    margin: 65px 15px 0px 15px;
 }
 
 .pagecard{
     display: block;
-    background-color: #e0e0e0;
-    border: 2px solid #343434;
+    background-color: #eeeeee;
+    border: 2px solid #bbbbbb;
     border-radius: 5px;
     text-decoration: none;
     padding: 15px 30px;
     margin: 10px 0 10px 0;
-    max-width: 900px;
+    max-width: 800px;
 }
 
-.pagecard:hover{
-    background-color: #d2d2d2;
+a.pagecard:hover{
+    background-color: #f3e2e2;
 }
 
-.pagecard h3{
+.card_title{
     color: #343434;
+    font-size: 25px;
+    margin: 10px auto;
 }
 
 .pagecard p{
     color: #343434;
+    font-size: 15px;
 }
+
+p.create_date{
+    color: #757575;
+    font-size: 15px;
+}
+
+section.pagecard a{
+    color: #972c2c;
+    text-decoration: none;
+}
+
+section.pagecard a:hover{
+    text-decoration: underline;
+}
+
