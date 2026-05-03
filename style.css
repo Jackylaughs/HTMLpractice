@@ -104,3 +104,11 @@ p.favoritemusic_description{
 }
 
 /* 追加、変更したい時に気分でIDやらクラスをつけるせいで、たったこの量でもスパゲッティコードを回避するのがいかに難しいことかを理解した */
+
+*{
+    cursor: url("Sky_cursor_01.svg") 4 4, auto;
+}
+
+/* a:hover{
+    cursor: url("Sky_cursor_01.svg") 4 4, auto;
+} */
